@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "vk-extrusion-extensions"
+version = "0.1.0"
+description = "Extends VIKTOR.AI extrusion capabilities"
+authors = ["AlejoDuarte23 <alejandro7899871776@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ruff = "^0.6.7"
+pre-commit = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
